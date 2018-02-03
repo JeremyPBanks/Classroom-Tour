@@ -26,7 +26,9 @@ typedef uint my_pthread_t;
 //L: struct to store thread attributes
 typedef struct threadControlBlock
 {
+	my_pthread_t;
 	unsigned int runTime;
+	//L: Highest priority = 1
 	unsigned int priority;
 	ucontext_t *context;
 } tcb; 

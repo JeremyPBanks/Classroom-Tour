@@ -10,7 +10,7 @@
 
 #define STACK_S 4096 //4kB stack frames
 
-//L: Signal handler to reschudle upon INTERRUPT signal
+//L: Signal handler to reschudle upon ALARM signal
 void signal_handler(int signum)
 {
 	if(signum != SIGALRM)
@@ -19,7 +19,8 @@ void signal_handler(int signum)
 		exit(signum);
 	}
 
-	//TODO: Update heaps and reset alarm timer	
+	//TODO: Update heaps and reset alarm timer
+	ualarm(25, 0);	
 }
 
 //L: TODO: heap functions
@@ -37,8 +38,13 @@ int my_pthread_create(my_pthread_t * thread, pthread_attr_t * attr, void *(*func
 	task->uc_stack.ss_size = STACK_S;
 	task->uc_stack.ss_flags = 0;
 	makecontext(&task, (void*)&function, 1, arg);
-	//L: TODO: add this shit to the tcb
 
+	tcb *newThread = (tcb*)malloc(sizeof(tcb));
+	newThread->runTime = 0;
+	newThread->priority = 1;
+	newThread->context = task;
+
+	//TODO: add newThread to heap
 	return 0;
 };
 
@@ -46,7 +52,8 @@ int my_pthread_create(my_pthread_t * thread, pthread_attr_t * attr, void *(*func
 int my_pthread_yield()
 {
 
-	//L: swapcontext()
+	//L: return to signal handler/scheduler
+	raise(SIGALRM);
 	return 0;
 };
 
@@ -54,6 +61,8 @@ int my_pthread_yield()
 void my_pthread_exit(void *value_ptr)
 {
 	//L: free context stack, remove context from tcb, free control block
+
+	//L: return to signal handler/scheduler
 	raise(SIGALRM);
 };
 
