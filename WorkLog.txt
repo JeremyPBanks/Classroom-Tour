@@ -1,9 +1,0 @@
-*************************************
-*  Teaching Myself Unreal Engine 4  *
-*  C++ (Obviously                   *
-*  Jeremy Banks                     *
-*************************************
-
-
-
-1/27/2018: First day where I actually sought out to learn the engine. Similar to Unity (which I have more experience with, but still a novice with), there's an absurd amount of built-in classes (in fact, way more than Unity) that I can only learn by developing more with it. I started building off of the first-person template, and began by adjusting myself to the application environment. After messing around with various aspects of the physics system and terrain, I created my first class: a floating pick-up. So, at the end of day one, my current project consists of...a floating and spinning chair that plays the Dark Souls "You Died" sound on collision, then disappears, all with Thank You Scientist's "Rube Goldberg Variations" playing in the background. Watch out Breath of the Wild.
