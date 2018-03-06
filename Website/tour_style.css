@@ -6,7 +6,7 @@
 	margin:auto;
 	width:25%;
 	height:50px;
-	opacity:.7;
+	opacity:.8;
 	border:thin #fff solid;
 	border-radius:5px 5px 5px 5px;
 	font-size:28px;
@@ -28,7 +28,7 @@ body
 datalist
 {
 	
-	opacity:.7;
+	opacity:.8;
 	border:thin #fff solid;
 	border-radius:5px 5px 5px 5px;
 	font-size:28px;
@@ -73,13 +73,14 @@ footer
 	background:#333;
 }
 
+
 #main
 {
 	margin:auto;
-	height:550px;
+	height:563px;
 	width:100%;
 	/*background:#913;*/
-	background:url('Resources/mainbg_final3.jpg');
+	background:url('Resources/mainbg1.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 	opacity:.8;
@@ -97,7 +98,6 @@ footer
 	margin:auto;
 	margin-top:0px;
 	margin-bottom:0px;
-	background:#069;
 	color:#fff;
 	text-align:center;
 	font-size:36px;
@@ -120,7 +120,7 @@ nav
 option
 {
 	
-	opacity:.7;
+	opacity:.8;
 	border:thin #fff solid;
 	border-radius:5px 5px 5px 5px;
 	font-size:28px;
@@ -192,7 +192,7 @@ option
 	margin:auto;
 	width:50%;
 	height:75px;
-	opacity:.7;
+	opacity:.8;
 	border:thin #fff solid;
 	border-radius:5px 5px 5px 5px;
 	font-size:32px;

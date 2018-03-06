@@ -34,7 +34,7 @@
 		<a class = "headlink" href="index.php">Home</a>
 		<a class = "headlink" href="search.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
-		<a class = "headlink" href="admin.php">Admin</a>
+		<a class = "headlink" href="login.php">Admin</a>
 	</nav>
 			
 	<div id="main">
