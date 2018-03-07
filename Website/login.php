@@ -65,7 +65,7 @@
 		{
 			if(($creds[0] == $_SESSION['user'] || $creds[2] == $_SESSION['user']) && $creds[1] == $_SESSION['pw'] && creds[3] == 1)
 			{
-				header("Location: admin.php");
+				header("Location: index.php");
 			}
 		}
 	}
@@ -75,6 +75,18 @@
 </head>
 
 <body>
+	<?php
+			if(isset($_SESSION['found']) && isset($_SESSION['found']) && $_SESSION['user'] != NULL)
+			{
+				$name = $_SESSION['user'];
+				echo("<a class = 'signstat' href = 'admin.php'>Signed In: $name</a>");
+			}
+			
+			else
+			{
+				echo("<a class = 'signstat' href = 'login.php'>Sign In</a>");
+			}
+		?>
 	<nav>
 		<a class = "headlink" href="index.php">Home</a>
 		<a class = "headlink" href="search.php">Search</a>

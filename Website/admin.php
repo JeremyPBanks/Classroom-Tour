@@ -109,12 +109,24 @@
 </head>
 
 <body>
-
+	<?php
+			if(isset($_SESSION['found']) && isset($_SESSION['found']) && $_SESSION['user'] != NULL)
+			{
+				$name = $_SESSION['user'];
+				echo("<a class = 'signstat' href = 'admin.php'>Signed In: $name</a>");
+			}
+			
+			else
+			{
+				echo("<a class = 'signstat' href = 'login.php'>Sign In</a>");
+			}
+		?>
 	<nav>
 		<a class = "headlink" href="index.php">Home</a>
 		<a class = "headlink" href="search.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
 		<a class = "headlink" href="login.php">Admin</a>
+		
 	</nav>
 		
 	<div id="main">
@@ -124,10 +136,10 @@
 	
 		<form name="console" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 			<input class="consoleBox" type="text" name="terminal" placeholder="Enter SQL Queries Here" required="required"/>
-			<input type="submit" value="Enter"/>
+			<input class="shillLink"  style="width:10%;" type="submit" value="Enter"/>
 		</form>
 	
-		<form>
+		<form style="margin-bottom:0px;">
 			<textarea class="consoleBox" name="output" readonly="readonly" placeholder="Output returned here"><?php
 				if($response != NULL)
 				{	
@@ -145,9 +157,11 @@
 			
 		</form>
 		
-		<form name="logout" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-			<input name="lo" type="submit" value="Log Out"/>
-		</form>
+		<div style="width:100%; height:auto; margin-top:0px;">
+			<form name="logout" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+				<input class = "shillLink" style="width:20%; height:auto; font-size:1.25em; margin-top:5px;" name="lo" type="submit" value="Log Out"/>
+			</form>
+		</div>
 	</div>
 </body>
 

@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -55,6 +58,18 @@
 </head>
 
 <body onload="fancy()">
+	<?php
+			if(isset($_SESSION['found']) && isset($_SESSION['found']) && $_SESSION['user'] != NULL)
+			{
+				$name = $_SESSION['user'];
+				echo("<a class = 'signstat' href = 'admin.php'>Signed In: $name</a>");
+			}
+			
+			else
+			{
+				echo("<a class = 'signstat' href = 'login.php'>Sign In</a>");
+			}
+		?>
 	<nav>
 		<a class = "headlink" href="index.php">Home</a>
 		<a class = "headlink" href="search.php">Search</a>
@@ -95,12 +110,12 @@
 		<div style="margin:inherit; padding:inherit; width:100%; background:inherit;">
 			<h3>Campus Searching, Simplified</h3>
 			<h4>Making finding your way around much more convenient.</h4>
-			<p style="font-size:16px;">
+			<p style="font-size:18px;">
 				Use YourSQL Tour to find the perfect study spot, the best gym, the nicest apartment,<br/>
 				the coolest place to hang out, or any other college establishment to enhance your academic lifestyle.<br/>
 				YourSQL Tour, because the college lifestyle is already difficult enough.
 			</p>
-			<a id="shillLink" href="about.php">Learn More</a>
+			<a class="shillLink" href="about.php">Learn More</a>
 		</div>
 	</div>
 	</div>

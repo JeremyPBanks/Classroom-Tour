@@ -130,6 +130,27 @@ option
 	font-family:"Times New Roman", Times, serif;
 }
 
+.signstat
+{
+	display:inline-block;
+	margin:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:#fff;
+	text-decoration:none;
+	font-size:20px;
+	padding:1.15%;
+	text-align:center;
+	width:auto;
+	font-family:"Times New Roman", Times, serif;
+	position:absolute;
+	right:1%;
+}
+
+.signstat:hover
+{
+	background:#333;
+}
 
 #shill
 {
@@ -141,13 +162,15 @@ option
 	font-family:"Times New Roman", Times, serif;
 	text-align:center;
 	font-size: 24px;
+	height:auto;
+	width:100%;
 }
 
 #shill h3
 {
 	margin:0px;
 	padding:0px;
-	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-family:"Arial Narrow Bold", sans-serif;
 	font-weight:lighter;
 }
 
@@ -157,25 +180,26 @@ option
 	padding:0px;
 }
 
-#shillLink
+.shillLink
 {
 	text-decoration:none;
 	display:block;
 	border:thin #111 solid;
 	border-radius: 5px 5px 5px 5px;
 	color:#111;
-	font-family:"Times New Roman", Times, serif;
+	font-family:"Arial Narrow Bold", sans-serif;
 	width:50%;
 	margin:auto;
 }
 
-#shillLink:hover
+.shillLink:hover
 {
 	transition:all .125s ease-in-out;
 	opacity:.8;
 	background:#000;
 	color:#fff;	
 	border:thin #111 solid;
+	cursor:pointer;
 }
 
 
