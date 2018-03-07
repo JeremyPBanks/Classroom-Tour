@@ -52,14 +52,6 @@
 			header("Location: login.php");
 		}
 	}
-	/*
-	if(($_SESSION['user'] != $creds[0] && $_SESSION['user'] != $creds[2]) || $_SESSION['pw'] != $creds[1] || $creds[3] == 0)
-	{
-		$_SESSION['user'] = NULL;
-		$_SESSION['pw'] = NULL;
-		header("Location: login.php");
-	}	
-	*/
 
 	$response = NULL;
 	
@@ -70,8 +62,14 @@
 			if(!$response)
 			{$response = NULL;}
 	}
-		
-			
+	
+	if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['lo']))
+	{
+		$_SESSION['user'] = NULL;
+		$_SESSION['pw'] = NULL;
+		$_SESSION['found'] = false;
+		header("Location: login.php");
+	}		
 ?>
 
 <style>
@@ -145,6 +143,10 @@
 				}
 			?></textarea>
 			
+		</form>
+		
+		<form name="logout" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+			<input name="lo" type="submit" value="Log Out"/>
 		</form>
 	</div>
 </body>

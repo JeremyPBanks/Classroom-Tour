@@ -53,12 +53,14 @@
 			$u = $_GET['user'];
 			$p = $_GET['pw'];
 			$e = $_GET['email'];
-			$link = "http://yoursqltour.rf.gd/verify.php?status=receive&user=$u";
-			echo("<p style = 'text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;'>A verification link has been sent to the provided email. Please check it to verify your new account.</p>");
-			$msg = "Thank you for registering with YourSQLTour.\nUsername: $u\nPassword: $p\n\nClick here to verify account: $link";
+			$link1 = "http://yoursqltour.rf.gd/verify.php?status=receive&user=$u";
+			$link2 = "http://yoursqltour.rf.gd/verify.php?status=deny&user=$u";
+			echo("<p>A verification link has been sent to the provided email.<br/>Please check it to verify your new account.</p>");
+			$msg = "Thank you for registering with YourSQLTour.\nUsername: $u\nPassword: $p\n\nClick here to verify account: $link1";
+			$msg2 = "\n\nTo cancel account activiation, click here: $link2";
 			$header = "From: YourSQL Tour <admin@yoursqltour.rf.gd>";
 			
-			if(!mail($e, "Account Verification", $msg, $header))
+			if(!mail($e, "Account Verification", $msg . $msg2, $header))
 			{
 				echo("Failure in sending email...\n");
 			}
@@ -76,6 +78,24 @@
 				echo("<p>Congratulations, $u! Your account has been verified. Redirecting to login page...</p>");
 				header("Refresh:4; url=login.php");
 			}
+		}
+		
+		else if($_GET['status'] == 'deny')
+		{
+			$u = $_GET['user'];
+			$query = "DELETE FROM Admin WHERE user = '$u'";
+			$result = mysqli_query($server, $query);
+			if(!$result)
+			{echo("Delete failure");}
+			else
+			{
+				echo("<p>Account creation canceled. Redirecting to login page...</p>");
+				$_SESSION['user'] = NULL;
+				$_SESSION['pw'] = NULL;
+				$_SESSION['found'] = false;		
+				header("Refresh:4; url=login.php");
+			}
+
 		}
 		
 		else

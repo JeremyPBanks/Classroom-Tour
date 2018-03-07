@@ -89,24 +89,21 @@
 		
 		<h3 class="tagline">Enter a University to get Started</h3>
 		
-	</div>
+	
 	
 	<div id="shill">
-		<div style="margin:auto; margin-top:0px; padding-top:0px; width:30%; background:#234;">
+		<div style="margin:inherit; padding:inherit; width:100%; background:inherit;">
 			<h3>Campus Searching, Simplified</h3>
 			<h4>Making finding your way around much more convenient.</h4>
 			<p style="font-size:16px;">
-				Use YourSQL Tour to find the perfect study spot, the best gym, the nicest
-				apartment, the coolest place to hang out, or any other college establishment to enhance your academic lifestyle.<br/>
+				Use YourSQL Tour to find the perfect study spot, the best gym, the nicest apartment,<br/>
+				the coolest place to hang out, or any other college establishment to enhance your academic lifestyle.<br/>
 				YourSQL Tour, because the college lifestyle is already difficult enough.
 			</p>
 			<a id="shillLink" href="about.php">Learn More</a>
 		</div>
 	</div>
-	
-	<footer>
-		© Flet Inc. 2018
-	</footer>
+	</div>
 	
 </body>
 

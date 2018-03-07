@@ -49,6 +49,13 @@
 	if(!$result)
 	{die("Database Connection Failed: " . mysqli_connect_error());}	
 //------------------------------------------------------------------------------
+	
+	if($_SESSION['found'])
+	{
+		header("Location: admin.php");
+	}
+	
+	
 	if(isset($_SESSION['user']) && isset($_SESSION['pw']))
 	{
 		$query = "SELECT * FROM Admin";
@@ -78,7 +85,7 @@
 	<div id="main">
 
 		<div id="login">
-			<p style="text-align:center; font-size:22px;">You must log into an account to access database.</p>
+			<p style="text-align:center; font-size:22px;">You must log into an account for database access.</p>
 			<form name="login" method="post" action= "admin.php">
 				<input class="attrSearch" style="width:100%;" required="required" type="text" name="user" placeholder="Username"/>
 				<input class="attrSearch" style="width:100%;" required="required" type="password" name="pw" placeholder="Password"/>

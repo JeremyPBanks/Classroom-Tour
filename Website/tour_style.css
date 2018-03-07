@@ -62,7 +62,7 @@ footer
 	color:#fff;
 	text-decoration:none;
 	font-size:20px;
-	padding:1.5%;
+	padding:1.15%;
 	text-align:center;
 	width:auto;
 	font-family:"Times New Roman", Times, serif;
@@ -76,11 +76,12 @@ footer
 
 #main
 {
+	position:relative;
 	margin:auto;
-	height:563px;
+	height:92vh;
 	width:100%;
 	/*background:#913;*/
-	background:url('Resources/mainbg1.jpg');
+	background:url('Resources/mainbg.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
 	opacity:.8;
@@ -132,10 +133,11 @@ option
 
 #shill
 {
+	background:rgba(255, 255, 255, .7);
 	display:inline;
-	margin:0px auto 0px auto;
-	padding:0px;
-	color:#fff;
+	margin:2% auto auto auto;
+	padding:20px 0px 20px 0px;
+	color:#222;
 	font-family:"Times New Roman", Times, serif;
 	text-align:center;
 	font-size: 24px;
@@ -159,16 +161,21 @@ option
 {
 	text-decoration:none;
 	display:block;
-	border:thin #fff solid;
+	border:thin #111 solid;
 	border-radius: 5px 5px 5px 5px;
-	color:#fff;
+	color:#111;
 	font-family:"Times New Roman", Times, serif;
+	width:50%;
+	margin:auto;
 }
 
 #shillLink:hover
 {
-	background:#ccc;
-	color:#333;	
+	transition:all .125s ease-in-out;
+	opacity:.8;
+	background:#000;
+	color:#fff;	
+	border:thin #111 solid;
 }
 
 
