@@ -55,8 +55,19 @@
 	<div id="main">
 	
 		<h1 class="title">YourSQL University Tour</h1>
+		
+		<h3 style="font-family:avenir">"...Because the college lifestyle is already difficult enough..."</h3>
 
-		<h3>Insert sellout information here</h3>
+		<h4 style="font-family:sailec">
+			Team YourSQL:</br>
+			</br>
+			<i>Lance Fletcher</br>
+			Jeremy Banks</br>
+			Neel Patel</br>
+			Tyler Falgiano</br>
+			Vince Wang</i></br></br>
+			<small>© 2018, Rutgers University - New Brunswick, NJ</small>
+		</h4>
 	
 	</div>
 	
