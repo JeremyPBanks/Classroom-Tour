@@ -68,6 +68,9 @@
 			Vince Wang</i></br></br>
 			<small>© 2018, Rutgers University - New Brunswick, NJ</small>
 		</h4>
+		
+		<h5 style="font-family:droid sans"><small>©Flet Inc, 2018</small></h5>
+
 	
 	</div>
 	
