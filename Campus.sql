@@ -1,0 +1,22 @@
+CREATE TABLE Campus(name VARCHAR(30) NOT NULL, code CHAR(6) , location VARCHAR(30), PRIMARY KEY(code,name));
+INSERT INTO Campus(name,code,location) VALUES 
+('Busch','002629','Piscataway'),
+('Livingston','002629','Piscataway'),
+('College Ave','002629','New Brunswick'),
+('Cook/Douglass','002629','New Brunswick'),
+('Camden','002629','Camden'),
+('Newark','002629','Newark'),
+('Main','104659','Edison'),
+('Dickinson Law','458216','Carlisle'),
+('College of Medicine','458216','Hershey'),
+('University Park','458216','State College'),
+('Main','789123','Glassboro'),
+('Main','568131','Philadelphia'),
+('Academy of Natural Sciences','568131','Philadelphia'),
+('Queen Lane','568131','Philadelphia'),
+('Center City Hahnemann','568131','Philadelphia'),
+('Main','774512','Galloway'),
+('Main','214156','San Francisco'),
+('Main','111222','Cambridge'),
+('Main','924056','New Haven'),
+('Main','154863','Princeton');
