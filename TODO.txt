@@ -13,7 +13,7 @@ Unique/Complex Queries
 1. Parking Lot to Building
 2. Building to Building
 3. Counting Specific Attributes
-4. Verifies that all premium parking lot prices are within 10-15% of that campus's average normal [Fun Fact]
+4. Verifies that all premium parking lot prices are within 10-15% of that campus's average normal (average differs from Students to Staff) [Fun Fact]
 5. higher tuition -> more whiteboards [Fun Fact]
 6. later a building is open -> more vending [Fun Fact] 
 
