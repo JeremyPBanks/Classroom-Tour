@@ -1,4 +1,4 @@
-CREATE TABLE ParkingLot(name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL, Lot_Name VARCHAR(30), capacity INT,pass_price FLOAT,pass_type VARCHAR(30),usable_by VARCHAR(30),PRIMARY KEY(code,name,Lot_Name));
+CREATE TABLE ParkingLot(name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL, Lot_Name VARCHAR(30), capacity INT,pass_price DECIMAL(10,2),pass_type VARCHAR(30),usable_by VARCHAR(30),PRIMARY KEY(code,name,Lot_Name));
 INSERT INTO ParkingLot(name,code,Lot_Name,capacity,pass_price,pass_type,usable_by) VALUES 
 ('Livingston','002629','Yellow',500,200.0,'Normal','Students'),
 ('Livingston','002629','Red',250,230.0,'Premium','Students'),
