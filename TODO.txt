@@ -2,8 +2,9 @@
 Aspects to Add
 ----------------
 
-1. Tuition to University table
+1. Tuition to University table      [Completed]
 2. Open/Close Time field as INT (use military time)
+3. Make "Fun Facts" tab on website
 
 -------------------------
 Unique/Complex Queries
