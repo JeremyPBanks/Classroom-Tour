@@ -1,5 +1,6 @@
 CREATE TABLE Building(campus_name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL , ID INT NOT NULL, b_name VARCHAR(30), num_of_bathrooms INT, num_of_vending_machines INT, date_built INT, num_of_floors INT, time_open INT, time_close INT, Handicap_Access VARCHAR(3), PRIMARY KEY(campus_name,code,ID));
 INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_vending_machines, date_built, num_of_floors, time_open, time_close, Handicap_Access) VALUES
+
 ('Main','104659',1,'Thomas Edison Classrooms',4,8,1976,2,0,24,'Yes'),
 ('Main','104659',2,'MSCC Student Center',6,6,1976,1,7,23,'Yes'),
 ('Main','104659',3,'Science Lab',1,8,1987,1,0,24,'No'),
@@ -82,7 +83,26 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Main','154863',20,'Office Center of Deans',1,3,2003,1,9,20,'No'),
 
 
-
+('Main','774512',1,'James Franco Hall of Science',10,15,1906,5,0,24,'Yes'),
+('Main','774512',2,'Yale Student Center',3,2,1974,1,7,19,'Yes'),
+('Main','774512',3,'Juarassic Lab - Archeology Center',3,3,1814,1,11,21,'No'),
+('Main','774512',4,'School of Mathematics and Criminal Justice',2,5,1870,2,6,22,'No'),
+('Main','774512',5,'Lab of Physical Science and Medicine',2,4,1980,2,11,24,'Yes'),
+('Main','774512',6,'Library of Time and Space',6,8,2000,3,0,24,'No'),
+('Main','774512',7,'Bill Clinton Gymnasium',3,6,2005,1,5,22,'Yes'),
+('Main','774512',8,'Writers of Prestige Building',4,5,1798,2,9,23,'Yes'),
+('Main','774512',9,'Stack Overflow Computer Science Center',4,9,2011,5,0,24,'No'),
+('Main','774512',10,'Yale Dining and Food Service',2,1,1997,2,9,20,'Yes'),
+('Main','774512',11,'Cooper Book and Supply Store',2,0,2015,2,8,23,'No'),
+('Main','774512',12,'Give Me Morse! - Yale Merchandise and Apparel Shop',4,1,1955,2,7,18,'Yes'),
+('Main','774512',13,'Philip J LaMarr Hall of Historic Study',6,4,1868,2,7,20,'Yes'),
+('Main','774512',14,'George W Bush Dormitory',8,9,1956,4,0,24,'Yes'),
+('Main','774512',15,'Foster Residence Center',8,8,1956,4,0,24,'No'),
+('Main','774512',16,'White Castle',2,0,2000,1,11,22,'No'),
+('Main','774512',17,'Tim Hortons',1,0,2005,1,5,19,'No'),
+('Main','774512',18,'Northeastern Apartments',4,3,1993,2,9,20,'Yes'),
+('Main','774512',19,'Graduate Studies Center',4,4,1911,2,8,20,'Yes'),
+('Main','774512',20,'Dean and Administrative Officials',1,0,1994,1,10,18,'Yes'),
 
 
 
