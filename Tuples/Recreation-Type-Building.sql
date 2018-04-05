@@ -1,2 +1,2 @@
 CREATE TABLE Recreation-Type-Building(campus_name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL , ID INT NOT NULL, roomID INT NOT NULL, floor_num INT, type VARCHAR(30), kind VARCHAR(30), has_gym VARCHAR(30), has_sauna VARCHAR(30), has_pool VARCHAR(30), has_weight_room VARCHAR(30), PRIMARY KEY(campus_name,code,ID,roomID))
-INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,kind,has_gym,has_sauna,has_pool,has_weight_room) VALUES
+INSERT INTO Recreation-Type-Building(campus_name,code,ID,roomID,floor_num,type,kind,has_gym,has_sauna,has_pool,has_weight_room) VALUES
