@@ -60,6 +60,29 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 
 
 
+('Main','154863',1,'Seth Rogen Hall',10,7,1990,5,6,23,'No'),
+('Main','154863',2,'Princeton Center of Students',7,6,1999,2,7,22,'Yes'),
+('Main','154863',3,'Jonah Hill Biology Lab',5,10,2000,2,0,24,'Yes'),
+('Main','154863',4,'Chemistry Lab of Chemists',1,5,1800,1,6,22,'No'),
+('Main','154863',5,'Dr Zorros Lab of Math',2,6,1920,2,5,24,'Yes'),
+('Main','154863',6,'The Greasy Grove Library',2,4,2017,2,8,15,'Yes'),
+('Main','154863',7,'Gym of Biggins',4,5,2007,2,8,23,'No'),
+('Main','154863',8,'Gym of Littles',4,5,1944,2,5,23,'Yes'),
+('Main','154863',9,'Ricks Tech Center of Mortys',6,6,1850,3,6,22,'Yes'),
+('Main','154863',10,'The Kevin Patel Dining Hall',2,0,1900,1,9,20,'No'),
+('Main','154863',11,'Nobles-and-Barnes',0,0,2005,2,10,20,'No'),
+('Main','154863',12,'The Office Center',4,0,1939,2,5,16,'Yes'),
+('Main','154863',13,'Cartmans Snuggle Center',4,4,1976,2,7,20,'Yes'),
+('Main','154863',14,'The Ioanna Apartments',8,9,2005,4,0,24,'No'),
+('Main','154863',15,'Snobby Dorms',8,8,1976,4,0,24,'No'),
+('Main','154863',16,'Obamas Cafe',1,0,2010,1,0,24,'No'),
+('Main','154863',17,'Surf Taco',1,0,2008,1,5,17,'No'),
+('Main','154863',18,'The Jon Snow Hall',4,3,1950,2,9,20,'Yes'),
+('Main','154863',19,'Nash Center of Literature',4,4,1920,2,8,20,'No'),
+('Main','154863',20,'Dean Office Center',1,3,2003,1,9,20,'No'),
+
+
+
 
 
 
