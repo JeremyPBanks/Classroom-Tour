@@ -1,2 +1,2 @@
-CREATE TABLE Service-Type-Building(campus_name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL , ID INT NOT NULL, roomID INT NOT NULL, floor_num INT, type VARCHAR(30), kind VARCHAR(30), is_Student_Center VARCHAR(30), is_Admin_Office VARCHAR(30), is_Guidance_Center VARCHAR(30), is_Dining_Hall VARCHAR(30), is_Grocery_Store VARCHAR(30), product_focus VARCHAR(30),  PRIMARY KEY(campus_name,code,ID,roomID))
-INSERT INTO Service-Type-Building(campus_name,code,ID,roomID,floor_num,type,kind,is_Student_Center,is_Admin_Office,is_Guidance_Center,is_Dining_Hall,is_Grocery_Store, product_focus) VALUES
+CREATE TABLE Service-Type-Building(campus_name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL , ID INT NOT NULL, roomID INT NOT NULL, floor_num INT, type VARCHAR(30), kind VARCHAR(30), product_focus VARCHAR(30),  PRIMARY KEY(campus_name,code,ID,roomID))
+INSERT INTO Service-Type-Building(campus_name,code,ID,roomID,floor_num,type,kind, product_focus) VALUES
