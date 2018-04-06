@@ -193,8 +193,8 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 
 
 ('Livingston','002629',1,'Beck Hall',5,8,1977,2,0,24,'Yes'),
-('Livingston','002629',2,'Business School Building',5,6,2010,2,6,22,'Yes'),
-('Livingston','002629',3,'James Dickson Carr Library',5,8,1972,2,0,24,'Yes'),
+('Livingston','002629',2,'Business School Building',5,6,2010,5,6,22,'Yes'),
+('Livingston','002629',3,'James Dickson Carr Library',5,8,1972,3,0,24,'Yes'),
 ('Livingston','002629',4,'Livingston Apartment',8,8,2010,4,0,24,'Yes'),
 ('Livingston','002629',5,'Livingston Dining Commons',2,2,1995,1,7,21,'Yes'),
 ('Livingston','002629',6,'Quads',8,8,1977,4,0,24,'Yes'),
