@@ -130,6 +130,36 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Main','924056',19,'Graduate Studies Center',4,4,1911,2,8,20,'Yes'),
 ('Main','924056',20,'Dean and Administrative Officials',1,0,1994,1,10,18,'Yes'),
 
+('College Ave','002629',1,'Academic Buildings',4,4,2016,3,6,18,'No'),
+('College Ave','002629',2,'Alexander Library',6,8,1956,4,0,24,'Yes'),
+('College Ave','002629',3,'Brett Hall',8,8,1964,4,0,24,'No'),
+('College Ave','002629',4,'Brower Commons',2,1,1960,1,7,21,'Yes'),
+('College Ave','002629',5,'Campbell Hall',8,8,1956,4,0,24,'Yes'),
+('College Ave','002629',6,'University Career Services',1,1,1950,1,8,18,'No'),
+('College Ave','002629',7,'Clothier Hall',8,8,1963,4,0,24,'Yes'),
+('College Ave','002629',8,'College Ave Gym',2,2,1931,2,7,19,'Yes'),
+('College Ave','002629',9,'College Avenue Student Center',3,4,1960,2,7,24,'Yes'),
+('College Ave','002629',10,'Frelinghuysen Hall',8,8,1956,4,0,24,'Yes'),
+('College Ave','002629',11,'Graduate Admissions',1,1,1956,1,8,18,'No'),
+('College Ave','002629',12,'Hardenbergh Hall',8,8,1956,4,0,24,'Yes'),
+('College Ave','002629',13,'Honors College',8,8,2014,4,0,24,'Yes'),
+('College Ave','002629',14,'Medical Education Building',1,1,1990,1,8,18,'Yes'),
+('College Ave','002629',15,'Mettler Hall',8,8,1962,4,0,24,'Yes'),
+('College Ave','002629',16,'Murray Hall',6,7,1909,2,0,24,'Yes'),
+('College Ave','002629',17,'Records Hall',1,1,1976,1,8,18,'Yes'),
+('College Ave','002629',18,'SAS Deans Office Building',1,1,1956,1,8,18,'No'),
+('College Ave','002629',19,'School of Communcation and Information',4,4,1967,2,5,24,'Yes'),
+('College Ave','002629',20,'School of Nursing',4,4,1945,2,5,24,'Yes'),
+('College Ave','002629',21,'Scott Hall',6,8,1902,2,0,24,'Yes'),
+('College Ave','002629',22,'Sojourner Truth Aparatments',8,8,2016,9,0,24,'Yes'),
+('College Ave','002629',23,'Barnes-and-Nobles',1,1,1990,2,8,18,'Yes'),
+('College Ave','002629',24,'Van Dyck Hall',2,4,1903,2,5,24,'Yes'),
+('College Ave','002629',25,'Vorhees Hall',2,4,1908,2,6,24,'Yes'),
+('College Ave','002629',26,'Zimmereli Art Museum',3,4,1980,2,8,18,'Yes');
 
 
-('Livingston','002629',1,25,5,,'Business School Building',),
+
+
+
+
+
