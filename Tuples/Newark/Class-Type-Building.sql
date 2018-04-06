@@ -1,4 +1,4 @@
-
+INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,capacity,desk_type,board_type) VALUES
 
 ('Newark','002629',1,100,1,'Mail Room',NULL,NULL,NULL),
 ('Newark','002629',1,101,1,'Office',NULL,NULL,NULL),
