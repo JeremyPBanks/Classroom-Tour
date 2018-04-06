@@ -1,0 +1,109 @@
+INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,capacity,desk_type,board_type) VALUES
+
+('College Ave','002629',2,100,1,'Help and Information','Library','Mail Room',NULL),
+('College Ave','002629',2,101,1,'Help and Information','Library','Main Hall',NULL),
+('College Ave','002629',2,102,1,'Help and Information','Library','Office',NULL),
+('College Ave','002629',2,103,1,'Help and Information','Library','Help Desk',NULL),
+('College Ave','002629',2,104,1,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,105,1,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,201,2,'Help and Information','Library','Main Hall',NULL),
+('College Ave','002629',2,202,2,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,203,2,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,204,2,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,205,2,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,206,2,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,207,2,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,208,2,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,209,2,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,301,3,'Help and Information','Library','Main Hall',NULL),
+('College Ave','002629',2,302,3,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,303,3,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,304,3,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,305,3,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,306,3,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,307,3,'Help and Information','Library','Student Lounge',NULL),
+('College Ave','002629',2,401,4,'Help and Information','Library','Main Hall',NULL),
+('College Ave','002629',2,402,4,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,403,4,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,404,4,'Help and Information','Library','Study Room',NULL),
+('College Ave','002629',2,405,4,'Help and Information','Library','Study Room',NULL),
+
+
+('College Ave','002629',4,100,1,'Food Service','Dining Hall','Mail Room',NULL),
+('College Ave','002629',4,101,1,'Food Service','Dining Hall','Main Hall',NULL),
+('College Ave','002629',4,102,1,'Food Service','Dining Hall','Kitchen',NULL),
+('College Ave','002629',4,103,1,'Food Service','Dining Hall','Faculty Hall',NULL),
+
+
+('College Ave','002629',6,100,1,'Help and Information','Admin Office','Mail Room',),
+('College Ave','002629',6,101,1,'Help and Information','Admin Office','Main Hall',),
+('College Ave','002629',6,102,1,'Help and Information','Admin Office','Help Desk',),
+('College Ave','002629',6,103,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',6,104,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',6,105,1,'Help and Information','Admin Office','Office',),
+
+
+
+('College Ave','002629',9,100,1,'Help and Information','Student Center','Mail Room',NULL),
+('College Ave','002629',9,101,1,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,102,1,'Help and Information','Student Center','Office',NULL),
+('College Ave','002629',9,103,1,'Help and Information','Student Center','Office',NULL),
+('College Ave','002629',9,104,1,'Help and Information','Student Center','Office',NULL),
+('College Ave','002629',9,105,1,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,106,1,'Help and Information','Student Center','Computer Lab',NULL),
+('College Ave','002629',9,107,1,'Help and Information','Student Center','Help Desk',NULL),
+('College Ave','002629',9,201,2,'Help and Information','Student Center','Study Room',NULL),
+('College Ave','002629',9,202,2,'Help and Information','Student Center','Study Room',NULL),
+('College Ave','002629',9,203,2,'Help and Information','Student Center','Study Room',NULL),
+('College Ave','002629',9,204,2,'Help and Information','Student Center','Study Room',NULL),
+('College Ave','002629',9,205,2,'Help and Information','Student Center','Study Room',NULL),
+('College Ave','002629',9,206,2,'Help and Information','Student Center','Study Room',NULL),
+('College Ave','002629',9,207,2,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,208,2,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,209,2,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,210,2,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,211,2,'Help and Information','Student Center','Student Lounge',NULL),
+('College Ave','002629',9,212,2,'Help and Information','Student Center','Student Lounge',NULL),
+
+
+
+('College Ave','002629',11,100,1,'Help and Information','Admin Office','Mail Room',),
+('College Ave','002629',11,101,1,'Help and Information','Admin Office','Main Hall',),
+('College Ave','002629',11,102,1,'Help and Information','Admin Office','Help Desk',),
+('College Ave','002629',11,103,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',11,104,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',11,105,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',11,106,1,'Help and Information','Admin Office','Office',),
+
+
+('College Ave','002629',16,100,1,'Help and Information','Admin Office','Mail Room',),
+('College Ave','002629',16,101,1,'Help and Information','Admin Office','Main Hall',),
+('College Ave','002629',16,102,1,'Help and Information','Admin Office','Help Desk',),
+('College Ave','002629',16,103,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,104,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,105,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,105,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,106,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,107,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,108,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,109,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',16,110,1,'Help and Information','Admin Office','Office',),
+
+
+('College Ave','002629',17,100,1,'Help and Information','Admin Office','Mail Room',),
+('College Ave','002629',17,101,1,'Help and Information','Admin Office','Main Hall',),
+('College Ave','002629',17,102,1,'Help and Information','Admin Office','Help Desk',),
+('College Ave','002629',17,103,1,'Help and Information','Admin Office','Office',),
+('College Ave','002629',17,104,1,'Help and Information','Admin Office','Office',),
+
+
+
+('Main','154863',22,100,1,'General Store',NULL,'Mail Room','Books'),
+('Main','154863',22,101,1,'General Store',NULL,'Fiction Section','Books'),
+('Main','154863',22,102,1,'General Store',NULL,'Non-Fiction Section','Books'),
+('Main','154863',22,104,1,'Food Service','Coffee Shop',NULL,'Coffee'),
+('Main','154863',22,201,2,'General Store',NULL,'Study Room','Books'),
+('Main','154863',22,202,2,'General Store',NULL,'Textbooks','Books'),
+('Main','154863',22,204,2,'General Store',NULL,'Study Room','Books'),
+('Main','154863',22,205,2,'General Store',NULL,'Study Room','Books');
+

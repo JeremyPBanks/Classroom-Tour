@@ -1,0 +1,21 @@
+INSERT INTO Recreation-Type-Building(campus_name,code,ID,roomID,floor_num,type,kind,room_use) VALUES
+
+
+('College Ave','002629',8,100,1,'Health & Lifestyle','Gym','Mail Room'),
+('College Ave','002629',8,101,1,'Health & Lifestyle','Gym','Office'),
+('College Ave','002629',8,102,1,'Health & Lifestyle','Gym','Office'),
+('College Ave','002629',8,103,1,'Health & Lifestyle','Gym','Office'),
+('College Ave','002629',8,104,1,'Health & Lifestyle','Gym','Office'),
+('College Ave','002629',8,105,1,'Health & Lifestyle','Gym','Basketball Court'),
+('College Ave','002629',8,106,1,'Health & Lifestyle','Gym','Basketball Court'),
+('College Ave','002629',8,107,1,'Health & Lifestyle','Gym','Multi-Purpose Room'),
+('College Ave','002629',8,108,1,'Health & Lifestyle','Gym','Men Locker Room'),
+('College Ave','002629',8,109,1,'Health & Lifestyle','Gym','Women Locker Room'),
+('College Ave','002629',8,201,2,'Health & Lifestyle','Gym','Fitness Room'),
+('College Ave','002629',8,202,2,'Health & Lifestyle','Gym','Weight Room'),
+('College Ave','002629',8,203,2,'Health & Lifestyle','Gym','Men Locker Room'),
+('College Ave','002629',8,204,2,'Health & Lifestyle','Gym','Women Locker Room'),
+
+
+('College Ave','002629',25,100,1,'Entertainment','Museum','Mail Room'),
+('College Ave','002629',25,100,1,'Entertainment','Museum','Main Hall');
