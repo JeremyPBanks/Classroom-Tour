@@ -163,7 +163,7 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Cook/Douglass','002629',1,'Administrative Services Building (ASB) II',4,8,1953,4,8,20,'Yes'),
 ('Cook/Douglass','002629',2,'Art History Hall',6,10,1965,3,8,20,'No'),
 ('Cook/Douglass','002629',3,'Bartlett Hall',6,9,1954,2,8,20,'Yes'),
-('Cook/Douglass','002629',4,'Biological Sciences Building',3,8,1975,4,8,20,'Yes'),
+('Cook/Douglass','002629',4,'Biological Sciences Building',4,8,1975,4,8,20,'Yes'),
 ('Cook/Douglass','002629',5,'Blake Hall',6,10,1955,5,8,20,'Yes'),
 ('Cook/Douglass','002629',6,'College Hall',2,10,1965,4,8,20,'Yes'),
 ('Cook/Douglass','002629',7,'Cook Douglass Recreation Center',4,12,1986,3,8,20,'Yes'),
