@@ -64,7 +64,7 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Main','154863',1,'Seth Rogen Hall',10,7,1990,5,6,23,'No'),
 ('Main','154863',2,'Princeton Center of Students',7,6,1999,2,7,22,'Yes'),
 ('Main','154863',3,'Jonah Hill Biology Lab',5,10,2000,2,0,24,'Yes'),
-('Main','154863',4,'Chemistry Lab of Chemists',1,5,1800,1,6,22,'No'),
+('Main','154863',4,'Chemistry Lab of Chemists',1,5,1800,2,6,22,'No'),
 ('Main','154863',5,'Dr Zorros Lab of Math',2,6,1920,2,5,24,'Yes'),
 ('Main','154863',6,'The Greasy Grove Library',2,4,2017,2,8,15,'Yes'),
 ('Main','154863',7,'Gym of Biggins',4,5,2007,2,8,23,'No'),
