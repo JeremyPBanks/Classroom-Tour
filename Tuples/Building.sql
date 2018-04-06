@@ -191,21 +191,22 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Cook/Douglass','002629',29,'Voorhees Residence Hall',2,3,1946,3,0,24,'No');
 
 
+
 ('Livingston','002629',1,'Beck Hall',5,8,1977,2,0,24,'Yes'),
 ('Livingston','002629',2,'Business School Building',5,6,2010,2,6,22,'Yes'),
 ('Livingston','002629',3,'James Dickson Carr Library',5,8,1972,2,0,24,'Yes'),
 ('Livingston','002629',4,'Livingston Apartment',8,8,2010,4,0,24,'Yes'),
 ('Livingston','002629',5,'Livingston Dining Commons',2,2,1995,1,7,21,'Yes'),
 ('Livingston','002629',6,'Quads',8,8,1977,4,0,24,'Yes'),
-('Livingston','002629',1,'Livingston Recreation Center',5,8,1985,1,7,23,'Yes'),
-('Livingston','002629',1,'Livingston Student Center',5,8,1990,2,7,24,'Yes'),
-('Livingston','002629',1,'Lucy Stone Hall',8,8,1977,2,0,24,'Yes'),
-('Livingston','002629',1,'Lynton Residence Hall - North and South Tower',8,8,1977,4,0,24,'Yes'),
-('Livingston','002629',1,'Henrys Diner',5,8,2001,1,9,18,'Yes'),
-('Livingston','002629',1,'Tillet Hall',8,8,1998,4,0,24,'Yes'),
-('Livingston','002629',1,'Starbucks',1,0,2001,1,5,18,'Yes'),
-('Livingston','002629',1,'Qdoba',1,0,2001,1,11,23,'Yes'),
-('Livingston','002629',1,'Rutgers Cinema',1,0,2001,1,15,24,'Yes'),
-('Livingston','002629',1,'Kilmers Market',1,0,2001,1,11,23,'Yes'),
-('Livingston','002629',1,'Kite and Key',1,0,2001,1,11,23,'Yes'),
-('Livingston','002629',1,'16 Handles Yogurt',1,0,2001,1,11,23,'Yes');
+('Livingston','002629',7,'Livingston Recreation Center',5,8,1985,1,7,23,'Yes'),
+('Livingston','002629',8,'Livingston Student Center',5,8,1990,2,7,24,'Yes'),
+('Livingston','002629',9,'Lucy Stone Hall',8,8,1977,2,0,24,'Yes'),
+('Livingston','002629',10,'Lynton Residence Hall - North and South Tower',8,8,1977,4,0,24,'Yes'),
+('Livingston','002629',11,'Henrys Diner',5,8,2001,1,9,18,'Yes'),
+('Livingston','002629',12,'Tillet Hall',8,8,1998,4,0,24,'Yes'),
+('Livingston','002629',13,'Starbucks',1,0,2001,1,5,18,'Yes'),
+('Livingston','002629',14,'Qdoba',1,0,2001,1,11,23,'Yes'),
+('Livingston','002629',15,'Rutgers Cinema',1,0,2001,1,15,24,'Yes'),
+('Livingston','002629',16,'Kilmers Market',1,0,2001,1,11,23,'Yes'),
+('Livingston','002629',17,'Kite and Key',1,0,2001,1,11,23,'Yes'),
+('Livingston','002629',18,'16 Handles Yogurt',1,0,2001,1,11,23,'Yes');
