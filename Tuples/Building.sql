@@ -79,7 +79,7 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Main','154863',16,'Obamas Cafe',1,0,2010,1,0,24,'No'),
 ('Main','154863',17,'Surf Taco',1,0,2008,1,5,17,'No'),
 ('Main','154863',18,'The Jon Snow Hall',4,3,1950,2,9,20,'Yes'),
-('Main','154863',19,'Nash Center of Literature',4,4,1920,2,8,20,'No'),
+('Main','154863',19,'Nash Center of Literature',4,4,1920,1,8,20,'No'),
 ('Main','154863',20,'Office Center of Deans',1,3,2003,1,9,20,'No'),
 
 
