@@ -40,8 +40,8 @@ public class SQLclassTypeBuildingGenerator {
 		String Xdesktype = "NULL";
 		String XboardType = "NULL";
 		
-		String[] arrTypes = {"Mail Room", "Faculty Lounge", "Office", "Regular Classroom", "Computer Lab", "Lecture Hall"};
-		String[] arrSeats = { "Detached", "Attached", "Theater Seats"};
+		String[] arrTypes = {"Mail Room", "Faculty Lounge", "Office", "Regular Classroom", "Computer Lab", "Lecture Hall", "Student Lounge"};
+		String[] arrSeats = {"Tables","Detached", "Attached", "Theater Seats"};
 		String[] arrBoards = {"Chalk", "White"};
 		
 		String MAINOUTPUT = "("+XcampusName+","+Xcode+","+XID+","+XroomID+","+XfloorNum+","+Xtype+","+Xcapacity+","+Xdesktype+","+XboardType+"),";
@@ -131,13 +131,13 @@ public class SQLclassTypeBuildingGenerator {
 					Xtype = "'" + arrTypes[reqTypeIndex] + "'";
 					Random rand = new Random();
 						
-						int randomDesk = rand.nextInt(2);
+						int randomDesk = rand.nextInt(3);
 						if (reqTypeIndex == 3) {
-							randomDesk = rand.nextInt(2);
+							randomDesk = rand.nextInt(3);
 						}
 						else
-						{
-							randomDesk = rand.nextInt(2)+1;
+						{ // lecture hall
+							randomDesk = rand.nextInt(2)+2;
 						}
 						
 						
