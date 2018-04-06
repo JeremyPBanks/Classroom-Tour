@@ -155,7 +155,7 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('College Ave','002629',23,'Barnes-and-Nobles',1,1,1990,2,8,18,'Yes'),
 ('College Ave','002629',24,'Van Dyck Hall',2,4,1903,2,5,24,'Yes'),
 ('College Ave','002629',25,'Vorhees Hall',2,4,1908,2,6,24,'Yes'),
-('College Ave','002629',26,'Zimmereli Art Museum',3,4,1980,2,8,18,'Yes');
+('College Ave','002629',26,'Zimmereli Art Museum',3,4,1980,1,8,18,'Yes');
 
 
 
