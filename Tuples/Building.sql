@@ -1,6 +1,32 @@
 CREATE TABLE Building(campus_name VARCHAR(30) NOT NULL, code CHAR(6) NOT NULL , ID INT NOT NULL, b_name VARCHAR(30), num_of_bathrooms INT, num_of_vending_machines INT, date_built INT, num_of_floors INT, time_open INT, time_close INT, Handicap_Access VARCHAR(3), PRIMARY KEY(campus_name,code,ID));
 INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_vending_machines, date_built, num_of_floors, time_open, time_close, Handicap_Access) VALUES
 
+('Busch','002629',1,'Allen Residence Hall',4,8,1976,2,0,24,'No'),
+('Busch','002629',2,'Alison Road Classroom Building',6,6,1984,3,6,24,'No'),
+('Busch','002629',3,'BEST Hall',8,8,2013,4,0,24,'Yes'),
+('Busch','002629',4,'Biomedical Engineering Building',4,4,2015,2,8,20,'Yes'),
+('Busch','002629',5,'Buell Apartments',4,8,1972,3,0,24,'No'),
+('Busch','002629',6,'Busch Dining Hall',4,5,1976,1,7,19,'Yes'),
+('Busch','002629',7,'Busch Student Center',8,6,1979,1,6,24,'Yes'),
+('Busch','002629',8,'CBIM Modular Building',4,4,1974,1,9,21,'Yes'),
+('Busch','002629',9,'Center for Packaging Engineering',6,6,1982,2,6,24,'No'),
+('Busch','002629',10,'Civil Engineering Lab',8,4,1994,1,9,21,'No'),
+('Busch','002629',11,'Computing Research & Education Building (CoRE)',14,10,1991,7,0,24,'Yes'),
+('Busch','002629',12,'Fiber Optic Materials Research Building',2,4,1987,1,10,22,'No'),
+('Busch','002629',13,'Hill Center',12,10,1989,6,0,24,'Yes'),
+('Busch','002629',14,'Library of Science & Medicine',6,6,1977,3,6,24,'Yes'),
+('Busch','002629',15,'Marvin Apartments',4,8,1985,2,0,24,'No'),
+('Busch','002629',16,'Mattia Residence Hall',4,8,2007,2,0,24,'No'),
+('Busch','002629',17,'Nichols Apartments',4,8,1995,2,0,24,'No'),
+('Busch','002629',18,'Physics and Astronomy Building',4,4,1979,2,10,22,'No'),
+('Busch','002629',19,'Psychology Building',4,4,1988,2,8,20,'Yes'),
+('Busch','002629',20,'Silvers Apartments',8,8,1990,4,0,24,'Yes'),
+('Busch','002629',21,'Science and Engineering Resource Center',4,6,1994,2,6,24,'Yes'),
+('Busch','002629',22,'Visitor Center',4,2,2009,2,12,18,'No'),
+('Busch','002629',23,'Werblin Recreation Center',2,6,2004,1,6,22,'Yes'),
+('Busch','002629',24,'Ernest Mario School of Pharmacy',8,4,1998,2,8,20,'Yes'),
+
+
 ('Main','104659',1,'Thomas Edison Classrooms',4,8,1976,2,0,24,'Yes'),
 ('Main','104659',2,'MSCC Student Center',6,6,1976,1,7,23,'Yes'),
 ('Main','104659',3,'Science Lab',1,8,1987,1,0,24,'No'),
@@ -103,7 +129,6 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Main','924056',18,'Northeastern Apartments',4,3,1993,2,9,20,'Yes'),
 ('Main','924056',19,'Graduate Studies Center',4,4,1911,2,8,20,'Yes'),
 ('Main','924056',20,'Dean and Administrative Officials',1,0,1994,1,10,18,'Yes'),
-
 
 
 
