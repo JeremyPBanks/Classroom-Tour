@@ -98,12 +98,12 @@ INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,capaci
 
 
 
-('Main','154863',22,100,1,'General Store',NULL,'Mail Room','Books'),
-('Main','154863',22,101,1,'General Store',NULL,'Fiction Section','Books'),
-('Main','154863',22,102,1,'General Store',NULL,'Non-Fiction Section','Books'),
-('Main','154863',22,104,1,'Food Service','Coffee Shop',NULL,'Coffee'),
-('Main','154863',22,201,2,'General Store',NULL,'Study Room','Books'),
-('Main','154863',22,202,2,'General Store',NULL,'Textbooks','Books'),
-('Main','154863',22,204,2,'General Store',NULL,'Study Room','Books'),
-('Main','154863',22,205,2,'General Store',NULL,'Study Room','Books');
+('College Ave','002629',22,100,1,'General Store',NULL,'Mail Room','Books'),
+('College Ave','002629',22,101,1,'General Store',NULL,'Fiction Section','Books'),
+('College Ave','002629',22,102,1,'General Store',NULL,'Non-Fiction Section','Books'),
+('College Ave','002629',22,104,1,'Food Service','Coffee Shop',NULL,'Coffee'),
+('College Ave','002629',22,201,2,'General Store',NULL,'Study Room','Books'),
+('College Ave','002629',22,202,2,'General Store',NULL,'Textbooks','Books'),
+('College Ave','002629',22,204,2,'General Store',NULL,'Study Room','Books'),
+('College Ave','002629',22,205,2,'General Store',NULL,'Study Room','Books');
 
