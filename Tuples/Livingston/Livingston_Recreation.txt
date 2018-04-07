@@ -11,3 +11,9 @@ INSERT INTO Recreation-Type-Building(campus_name,code,ID,roomID,floor_num,type,k
 ('Livingston','002629',7,108,1,'Health & Lifestyle','Gym','Women Locker Room'),
 ('Livingston','002629',7,109,1,'Health & Lifestyle','Gym','Fitness Room'),
 ('Livingston','002629',7,110,1,'Health & Lifestyle','Gym','Weight Room'),
+
+('Livingston','002629',15,100,1,'Entertainment','Movie Theater','Mail Room'),
+('Livingston','002629',15,101,1,'Entertainment','Movie Theater','Main Hall'),
+('Livingston','002629',15,102,1,'Entertainment','Movie Theater','Theater Room'),
+('Livingston','002629',15,103,1,'Entertainment','Movie Theater','Theater Room'),
+('Livingston','002629',15,104,1,'Entertainment','Movie Theater','Theater Room'),
