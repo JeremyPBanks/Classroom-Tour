@@ -1,0 +1,67 @@
+INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,capacity,desk_type,board_type) VALUES
+
+('Livingston','002629',8,100,1,'Help and Information','Student Center','Mail Room',NULL),
+('Livingston','002629',8,101,1,'Help and Information','Student Center','Student Lounge',NULL),
+('Livingston','002629',8,102,1,'Help and Information','Student Center','Student Lounge',NULL),
+('Livingston','002629',8,103,1,'Help and Information','Student Center','Office',NULL),
+('Livingston','002629',8,104,1,'Help and Information','Student Center','Office',NULL),
+('Livingston','002629',8,105,1,'Help and Information','Student Center','Student Lounge',NULL),
+('Livingston','002629',8,106,1,'Help and Information','Student Center','Help Desk',NULL),
+('Livingston','002629',8,201,2,'Help and Information','Student Center','Study Room',NULL),
+('Livingston','002629',8,202,2,'Help and Information','Student Center','Study Room',NULL),
+('Livingston','002629',8,203,2,'Help and Information','Student Center','Study Room',NULL),
+('Livingston','002629',8,204,2,'Help and Information','Student Center','Study Room',NULL),
+('Livingston','002629',8,205,2,'Help and Information','Student Center','Study Room',NULL),
+('Livingston','002629',8,206,2,'Help and Information','Student Center','Study Room',NULL),
+('Livingston','002629',8,207,2,'Help and Information','Student Center','Student Lounge',NULL),
+('Livingston','002629',8,208,2,'Help and Information','Student Center','Student Lounge',NULL),
+('Livingston','002629',8,209,2,'Help and Information','Student Center','Student Lounge',NULL),
+
+('Livingston','002629',13,100,1,'Food Service','Restaurant','Mail Room',NULL),
+('Livingston','002629',13,101,1,'Food Service','Restaurant','Livingston Hall',NULL),
+('Livingston','002629',13,102,1,'Food Service','Restaurant','Kitchen',NULL),
+
+('Livingston','002629',14,100,1,'Food Service','Restaurant','Mail Room',NULL),
+('Livingston','002629',14,101,1,'Food Service','Restaurant','Livingston Hall',NULL),
+('Livingston','002629',14,102,1,'Food Service','Restaurant','Kitchen',NULL),
+
+('Livingston','002629',18,100,1,'Food Service','Restaurant','Mail Room',NULL),
+('Livingston','002629',18,101,1,'Food Service','Restaurant','Livingston Hall',NULL),
+('Livingston','002629',18,102,1,'Food Service','Restaurant','Kitchen',NULL),
+
+
+('Livingston','002629',11,100,1,'Food Service','Restaurant','Mail Room',NULL),
+('Livingston','002629',11,101,1,'Food Service','Restaurant','Livingston Hall',NULL),
+('Livingston','002629',11,102,1,'Food Service','Restaurant','Kitchen',NULL),
+
+
+('Livingston','002629',5,100,1,'Food Service','Dining Hall','Mail Room',NULL),
+('Livingston','002629',5,101,1,'Food Service','Dining Hall','Main Hall',NULL),
+('Livingston','002629',5,102,1,'Food Service','Dining Hall','Kitchen',NULL),
+('Livingston','002629',5,103,1,'Food Service','Dining Hall','Faculty Hall',NULL),
+
+
+
+
+('Livingston','002629',3,100,1,'Help and Information','Library','Mail Room',NULL),
+('Livingston','002629',3,101,1,'Help and Information','Library','Main Hall',NULL),
+('Livingston','002629',3,102,1,'Help and Information','Library','Office',NULL),
+('Livingston','002629',3,103,1,'Help and Information','Library','Help Desk',NULL),
+('Livingston','002629',3,104,1,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,105,1,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,201,2,'Help and Information','Library','Main Hall',NULL),
+('Livingston','002629',3,202,2,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,203,2,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,204,2,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,205,2,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,206,2,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,207,2,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,208,2,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,209,2,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,301,3,'Help and Information','Library','Main Hall',NULL),
+('Livingston','002629',3,302,3,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,303,3,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,304,3,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,305,3,'Help and Information','Library','Study Room',NULL),
+('Livingston','002629',3,306,3,'Help and Information','Library','Student Lounge',NULL),
+('Livingston','002629',3,307,3,'Help and Information','Library','Student Lounge',NULL),
