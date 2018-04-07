@@ -245,5 +245,4 @@ INSERT INTO Basic_Test (campus_name, code, ID, b_name, num_of_bathrooms, num_of_
 ('Camden','002629',13,'Political Science Office Building',          6,2,1951,2,0,24,'No'),
 ('Camden','002629',14,'Nursing and Science Building',               6,6,1952,3,6,2,'No'),
 ('Camden','002629',15,'Paul Robeson Library',                       4,4,1959,3,6,22,'No'),
-('Camden','002629',16,'Ultimato Office Building',                   4,8,1958,2,0,24,'No'),
-('Camden','002629',17,'University District Bookstore',              4,8,1957,1,8,21,'No'),
+('Camden','002629',16,'University District Bookstore',              4,8,1957,1,8,21,'No'),
