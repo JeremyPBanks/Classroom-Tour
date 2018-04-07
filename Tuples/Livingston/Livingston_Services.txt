@@ -29,19 +29,14 @@ INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,capaci
 ('Livingston','002629',18,101,1,'Food Service','Restaurant','Livingston Hall',NULL),
 ('Livingston','002629',18,102,1,'Food Service','Restaurant','Kitchen',NULL),
 
-
 ('Livingston','002629',11,100,1,'Food Service','Restaurant','Mail Room',NULL),
 ('Livingston','002629',11,101,1,'Food Service','Restaurant','Livingston Hall',NULL),
 ('Livingston','002629',11,102,1,'Food Service','Restaurant','Kitchen',NULL),
-
 
 ('Livingston','002629',5,100,1,'Food Service','Dining Hall','Mail Room',NULL),
 ('Livingston','002629',5,101,1,'Food Service','Dining Hall','Main Hall',NULL),
 ('Livingston','002629',5,102,1,'Food Service','Dining Hall','Kitchen',NULL),
 ('Livingston','002629',5,103,1,'Food Service','Dining Hall','Faculty Hall',NULL),
-
-
-
 
 ('Livingston','002629',3,100,1,'Help and Information','Library','Mail Room',NULL),
 ('Livingston','002629',3,101,1,'Help and Information','Library','Main Hall',NULL),
@@ -65,3 +60,12 @@ INSERT INTO Class-Type-Building(campus_name,code,ID,roomID,floor_num,type,capaci
 ('Livingston','002629',3,305,3,'Help and Information','Library','Study Room',NULL),
 ('Livingston','002629',3,306,3,'Help and Information','Library','Student Lounge',NULL),
 ('Livingston','002629',3,307,3,'Help and Information','Library','Student Lounge',NULL),
+
+('Livingston','002629',16,100,1,'Food Service','Market','Mail Room',NULL),
+('Livingston','002629',16,101,1,'Food Service','Market','Main Hall',NULL),
+('Livingston','002629',16,102,1,'Food Service','Market','Kitchen',NULL),
+('Livingston','002629',16,103,1,'Food Service','Market','Faculty Hall',NULL),
+
+('Livingston','002629',17,100,1,'Help and Information','IT','Mail Room',NULL),
+('Livingston','002629',17,100,1,'Help and Information','IT','Help Desk',NULL),
+('Livingston','002629',17,100,1,'Help and Information','IT','Office',NULL),
