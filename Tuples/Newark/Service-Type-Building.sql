@@ -42,3 +42,10 @@ INSERT INTO Service-Type-Building(campus_name,code,ID,roomID,floor_num,type,kind
 ('Newark','002629',11,105,1,'Help and Information','Library','Study Room',NULL),
 ('Newark','002629',11,106,1,'Help and Information','Library','Study Lounge',NULL),
 
+('Newark','002629',18,100,1,'Food Service','Dining Hall','Mail Room',NULL),
+('Newark','002629',18,101,1,'Food Service','Dining Hall','Main Hall',NULL),
+('Newark','002629',18,102,1,'Food Service','Dining Hall','Kitchen',NULL),
+('Newark','002629',18,103,1,'Food Service','Dining Hall','Faculty Hall',NULL),
+('Newark','002629',18,201,2,'Food Service','Dining Hall','Main Hall',NULL),
+('Newark','002629',18,202,2,'Food Service','Dining Hall','Faculty Hall',NULL),
+
