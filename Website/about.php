@@ -15,7 +15,6 @@
 	define("HOST", "cs336-db.cttukqaedhbw.us-east-2.rds.amazonaws.com");
 	define("USER", "laf224");
 	define("PASS", "\$college795");
-
 	$server = mysqli_connect(HOST, USER, PASS);
 
 	if(!$server)
@@ -28,7 +27,18 @@
 	
 ?>
 
+<style>
+	.aboutBlock
+	{
+		display:inline-block;
+		margin:auto;
+		text-align:center;
+		height:27vh;
+		padding:5px;
+	}
 
+
+</style>
 
 </head>
 
@@ -47,31 +57,36 @@
 		?>
 	<nav>
 		<a class = "headlink" href="index.php">Home</a>
-		<a class = "headlink" href="search.php">Search</a>
+		<a class = "headlink" href="select.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
 		<a class = "headlink" href="login.php">Admin</a>
 	</nav>
 			
 	<div id="main">
-	
 		<h1 class="title">YourSQL University Tour</h1>
 		
 		<h3 style="font-family:avenir">"...Because the college lifestyle is already difficult enough..."</h3>
 
-		<h4 style="font-family:sailec">
-			Team YourSQL:</br>
-			</br>
-			<i>Lance Fletcher</br>
-			Jeremy Banks</br>
-			Neel Patel</br>
-			Tyler Falgiano</br>
-			Vince Wang</i></br></br>
-			<small>© 2018, Rutgers University - New Brunswick, NJ</small>
-		</h4>
-		
-		<h5 style="font-family:droid sans"><small>©Flet Inc, 2018</small></h5>
+		<div style="width:100%; height:auto; background:rgba(15, 15, 15, .6)">
+			<div class="aboutBlock">
+				<img src="Resources/yoursql_logo.png" alt="YourSQL"/>
+			</div>
 
-	
+			<div class="aboutBlock">	
+				<h4 style="font-family:sailec; font-size:1em;">
+					Team YourSQL:<br/>
+					<br/>
+					<i>Lance Fletcher<br/>
+					Jeremy Banks<br/>
+					Neel Patel<br/>
+					Tyler Falgiano<br/>
+					Vince Wang</i><br/><br/>
+					<small>© 2018, Rutgers University - New Brunswick, NJ</small>
+				</h4>
+		
+				<h5 style="font-family:droid sans"><small>©Flet Inc. 2018</small></h5>
+			</div>
+		</div>	
 	</div>
 	
 	<footer>

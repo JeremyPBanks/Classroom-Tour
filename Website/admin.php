@@ -1,4 +1,5 @@
 <?php
+	ob_start();
 	session_start();
 ?>
 
@@ -14,7 +15,6 @@
 	define("HOST", "cs336-db.cttukqaedhbw.us-east-2.rds.amazonaws.com");
 	define("USER", "laf224");
 	define("PASS", "\$college795");
-
 	$server = mysqli_connect(HOST, USER, PASS);
 
 	if(!$server)
@@ -122,8 +122,9 @@
 			}
 		?>
 	<nav>
+		<!--<a href="index.php"><img id="logo" src="Resources/yoursql_logo.png" alt="YourSQL"/></a>-->
 		<a class = "headlink" href="index.php">Home</a>
-		<a class = "headlink" href="search.php">Search</a>
+		<a class = "headlink" href="select.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
 		<a class = "headlink" href="login.php">Admin</a>
 		
@@ -157,6 +158,24 @@
 			
 		</form>
 		
+		<div style="background:rgba(0,0,0,.6); width:100%;">
+		<h4 class="title">Verified Users</h4>
+		<?php
+			$query = "SELECT user, email FROM Admin WHERE verified = 1";
+			$result = mysqli_query($server, $query);
+			if(!$result)
+			{die("Query Error: " . $query);}
+						
+			while($row = mysqli_fetch_assoc($result))
+			{
+				foreach($row as $name=>$val)
+				{
+					echo($val . "\t\t\t\t");
+				}
+				echo("<br/>");
+			}
+		?>
+		</div>
 		<div style="width:100%; height:auto; margin-top:0px;">
 			<form name="logout" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 				<input class = "shillLink" style="width:20%; height:auto; font-size:1.25em; margin-top:5px;" name="lo" type="submit" value="Log Out"/>

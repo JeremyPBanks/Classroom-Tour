@@ -1,4 +1,5 @@
 <?php
+	error_reporting(E_ERROR);
 	session_start();
 ?>
 
@@ -38,7 +39,6 @@
 	define("HOST", "cs336-db.cttukqaedhbw.us-east-2.rds.amazonaws.com");
 	define("USER", "laf224");
 	define("PASS", "\$college795");
-
 	$server = mysqli_connect(HOST, USER, PASS);
 
 	if(!$server)
@@ -89,7 +89,7 @@
 		?>
 	<nav>
 		<a class = "headlink" href="index.php">Home</a>
-		<a class = "headlink" href="search.php">Search</a>
+		<a class = "headlink" href="select.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
 		<a class = "headlink" href="login.php">Admin</a>
 	</nav>

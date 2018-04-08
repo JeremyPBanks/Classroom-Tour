@@ -4,7 +4,7 @@
 .attrSearch
 {
 	margin:auto;
-	width:25%;
+	width:28%;
 	height:50px;
 	opacity:.8;
 	border:thin #fff solid;
@@ -73,14 +73,34 @@ footer
 	background:#333;
 }
 
+.infolink
+{
+	text-decoration:none;
+	color:#eee;
+	font-weight:bold;
+}
+
+.infolink:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#logo
+{
+	position:absolute;
+	left:5%;
+	display:block;
+	height:6.5%;
+}
 
 #main
 {
 	position:relative;
 	margin:auto;
+	max-height:100%;
 	height:92vh;
 	width:100%;
-	/*background:#913;*/
 	background:url('Resources/mainbg.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -128,6 +148,17 @@ option
 	color:#fff;
 	background:#000;
 	font-family:"Times New Roman", Times, serif;
+}
+
+.result_display
+{
+	margin:auto;
+	text-align:center;	
+}
+
+.result_display td
+{
+	border:thick blueviolet dashed;
 }
 
 .signstat
@@ -201,6 +232,7 @@ option
 	border:thin #111 solid;
 	cursor:pointer;
 }
+
 
 
 .tagline

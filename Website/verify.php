@@ -19,7 +19,6 @@
 	define("HOST", "cs336-db.cttukqaedhbw.us-east-2.rds.amazonaws.com");
 	define("USER", "laf224");
 	define("PASS", "\$college795");
-
 	$server = mysqli_connect(HOST, USER, PASS);
 
 	if(!$server)
@@ -39,9 +38,23 @@
 </head>
 
 <body>
+	<?php
+		if(isset($_SESSION['found']) && isset($_SESSION['found']) && $_SESSION['user'] != NULL)
+		{
+			$name = $_SESSION['user'];
+			echo("<a class = 'signstat' href = 'admin.php'>Signed In: $name</a>");
+		}
+			
+		else
+		{
+			echo("<a class = 'signstat' href = 'login.php'>Sign In</a>");
+		}
+	?>
+
 	<nav>
+		<!--<a href="index.php"><img id="logo" src="Resources/yoursql_logo.png" alt="YourSQL"/></a>-->
 		<a class = "headlink" href="index.php">Home</a>
-		<a class = "headlink" href="search.php">Search</a>
+		<a class = "headlink" href="select.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
 		<a class = "headlink" href="login.php">Admin</a>
 	</nav>
@@ -55,7 +68,7 @@
 			$e = $_GET['email'];
 			$link1 = "http://yoursqltour.rf.gd/verify.php?status=receive&user=$u";
 			$link2 = "http://yoursqltour.rf.gd/verify.php?status=deny&user=$u";
-			echo("<p>A verification link has been sent to the provided email.<br/>Please check it to verify your new account.</p>");
+			echo("<p>A verification link has been sent to the provided email.<br/>Please click it to verify your new account.<br/>Note: May need to check spam folder</p>");
 			$msg = "Thank you for registering with YourSQLTour.\nUsername: $u\nPassword: $p\n\nClick here to verify account: $link1";
 			$msg2 = "\n\nTo cancel account activiation, click here: $link2";
 			$header = "From: YourSQL Tour <admin@yoursqltour.rf.gd>";

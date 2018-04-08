@@ -15,7 +15,6 @@
 	define("HOST", "cs336-db.cttukqaedhbw.us-east-2.rds.amazonaws.com");
 	define("USER", "laf224");
 	define("PASS", "\$college795");
-
 	$server = mysqli_connect(HOST, USER, PASS);
 
 	if(!$server)
@@ -28,17 +27,11 @@
 	
 /*---------------------------------------------------------------------*/
 	
-	if($_SERVER['REQUEST_METHOD'] == 'POST')
-	{
-		if(isset($_POST['university']))
-		{
-			header("Location: search.php");
-		}	
-	}
+	$_SESSION['uni'] = NULL;
 		
 	function getUni()
 	{
-		$query = "SELECT uName FROM University;";
+		$query = "SELECT name FROM University;";
 		$result = mysqli_query($server, $query);
 		if(!$result)
 		{die("DB Query Failed: " . mysqli_connect_error());}
@@ -72,7 +65,7 @@
 		?>
 	<nav>
 		<a class = "headlink" href="index.php">Home</a>
-		<a class = "headlink" href="search.php">Search</a>
+		<a class = "headlink" href="select.php">Search</a>
 		<a class = "headlink" href="about.php">About</a>
 		<a class = "headlink" href="login.php">Admin</a>
 	</nav>
@@ -81,10 +74,10 @@
 	
 		<h1 class="title">YourSQL University Tour</h1>
 	
-		<form name="init" method="post" action="search.php">
+		<form name="init" method="post" action="select.php">
 			<datalist id="uni_search">
 				<?php
-					$query = "SELECT uName FROM University;";
+					$query = "SELECT DISTINCT name FROM University;";
 					$result = mysqli_query($server, $query);
 					
 					if(!$result)
@@ -98,11 +91,13 @@
 				
 			</datalist>
 		
-			<input type="search" id ="uniSearch" placeholder="Enter University" required="required" name="university" list="uni_search"/>
+			<input type="search" id ="uniSearch" placeholder="Enter University" required="required" autocomplete="on" name="university" list="uni_search"/>
 			
 		</form>
 		
 		<h3 class="tagline">Enter a University to get Started</h3>
+		<small style="margin:1px; font-family:'Times New Roman', Times, serif;">Or click 
+		<a href="select.php">here</a> to search all universities</small>
 		
 	
 	
